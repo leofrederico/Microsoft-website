@@ -24,9 +24,14 @@ header {
         margin: 0;
     }
 
-    li{
+    a {
+        text-decoration: none;
         cursor: pointer;
         color: #262626;
+    }
+
+    .list-microsoft-resp{
+        display: none;
     }
 }
 
@@ -72,6 +77,10 @@ header {
 
     .carousel-control-next{
         top: 300px;   
+    }
+
+    .img-carousel-resp{
+        display: none;
     }
 }
 
